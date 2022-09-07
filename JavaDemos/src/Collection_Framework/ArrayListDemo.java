@@ -5,8 +5,9 @@ import java.util.List;
 
 
 public class ArrayListDemo {
-	//int price;
+	int price;
 
+	@SuppressWarnings("removal")
 	public static void main(String[] args) {
 		List<Object> al=new ArrayList<Object>();
 		Student s2=new Student(102,"Rashmi","ECE");
