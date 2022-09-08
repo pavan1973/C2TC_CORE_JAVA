@@ -1,6 +1,6 @@
 package Collection_Framework;
 
-class Student
+public class Student
 {
 	int id;
 	String name;
@@ -10,12 +10,15 @@ class Student
 		this.id = id;
 		this.name = name;
 		this.branch = branch;
+	
 	}
 
 	@Override
 	public String toString() {
 		return "Student information [id=" + id + ", name=" + name + ", branch=" + branch + "]";
 	}
+	
+	
 	
 	
 	

@@ -6,6 +6,7 @@ import java.util.ListIterator;
 
 public class LinkedListDemo {
 
+	@SuppressWarnings("removal")
 	public static void main(String[] args) {
 	List ll=new LinkedList();
 	Student s1=new Student(1,"Vidya","Mech");
