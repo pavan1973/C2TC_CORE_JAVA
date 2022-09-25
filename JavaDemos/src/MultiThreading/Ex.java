@@ -1,4 +1,5 @@
 package MultiThreading;
+
 public class Ex extends Thread {
 int st;
 String msg;
